@@ -1,0 +1,50 @@
+KEYBOARD SHORCUTS:
+FOLD 	: CTRL + K, CTRL + 3	> CTRL + M, CTRL + O
+UNFOLD 	: CTRL + K, CTRL + J	> CTRL + M, CTRL + P
+FORMAT	: SHIFT + ALT + F		> CTRL + K, CTRL + D
+
+EXTENSIONS(paste to TERMINAL):
+$ code --list-extensions | xargs -L 1 echo code --install-extensions
+code --install-extensions aaron-bond.better-comments
+code --install-extensions christian-kohler.path-intellisense
+code --install-extensions codezombiech.gitignore
+code --install-extensions CoenraadS.bracket-pair-colorizer-2
+code --install-extensions craigthomas.supersharp
+code --install-extensions doggy8088.netcore-extension-pack
+code --install-extensions doggy8088.netcore-snippets
+code --install-extensions eamodio.gitlens
+code --install-extensions formulahendry.auto-close-tag
+code --install-extensions formulahendry.auto-complete-tag
+code --install-extensions formulahendry.auto-rename-tag
+code --install-extensions formulahendry.dotnet
+code --install-extensions formulahendry.dotnet-test-explorer
+code --install-extensions jchannon.csharpextensions
+code --install-extensions jmrog.vscode-nuget-package-manager
+code --install-extensions k--kato.docomment
+code --install-extensions ms-vscode.csharp
+code --install-extensions pflannery.vscode-versionlens
+code --install-extensions quicktype.quicktype
+code --install-extensions schneiderpat.aspnet-helper
+code --install-extensions Shan.code-settings-sync
+code --install-extensions tintoy.msbuild-project-tools
+code --install-extensions vscode-icons-team.vscode-icons
+code --install-extensions wayou.vscode-todo-highlight
+
+SETTINGS:
+{
+    "workbench.iconTheme": "vscode-icons",
+    "sync.code":"dabb36eb0b7d8001993451e44972e3f2",
+    "sync.gist": "dabb36eb0b7d8001993451e44972e3f2",
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+    "sync.forceUpload": false,
+    "sync.forceDownload": false,
+    "sync.autoUpload": true,
+    "sync.autoDownload": true,
+    "search.showLineNumbers": true,
+    "emmet.includeLanguages": {
+        "aspnetcorerazor": "html"
+    },
+    "[csharp]": {
+        "editor.defaultFormatter": "ms-vscode.csharp"
+    },
+}
