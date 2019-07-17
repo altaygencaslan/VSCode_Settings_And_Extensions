@@ -2,9 +2,10 @@ KEYBOARD SHORCUTS:
 FOLD 	: CTRL + K, CTRL + 3	> CTRL + M, CTRL + O
 UNFOLD 	: CTRL + K, CTRL + J	> CTRL + M, CTRL + P
 FORMAT	: SHIFT + ALT + F		> CTRL + K, CTRL + D
+FORMAT(HTML) : F1 -> Beautify > HTML / JS / CSS
 
 EXTENSIONS(paste to TERMINAL):
-$ code --list-extensions | xargs -L 1 echo code --install-extensions
+code --list-extensions | xargs -L 1 echo code --install-extensions
 code --install-extensions aaron-bond.better-comments
 code --install-extensions christian-kohler.path-intellisense
 code --install-extensions codezombiech.gitignore
@@ -18,6 +19,7 @@ code --install-extensions formulahendry.auto-complete-tag
 code --install-extensions formulahendry.auto-rename-tag
 code --install-extensions formulahendry.dotnet
 code --install-extensions formulahendry.dotnet-test-explorer
+code --install-extensions HookyQR.beautify
 code --install-extensions jchannon.csharpextensions
 code --install-extensions jmrog.vscode-nuget-package-manager
 code --install-extensions k--kato.docomment
