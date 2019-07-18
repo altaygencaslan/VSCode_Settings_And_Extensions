@@ -35,9 +35,9 @@ code --install-extension wayou.vscode-todo-highlight
 SETTINGS:
 {
     "workbench.iconTheme": "vscode-icons",
-    "sync.code":"dabb36eb0b7d8001993451e44972e3f2",
+    "sync.code": "dabb36eb0b7d8001993451e44972e3f2",
     "sync.gist": "dabb36eb0b7d8001993451e44972e3f2",
-    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
     "sync.forceUpload": false,
     "sync.forceDownload": false,
     "sync.autoUpload": true,
