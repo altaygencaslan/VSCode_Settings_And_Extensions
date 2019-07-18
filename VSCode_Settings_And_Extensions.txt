@@ -5,32 +5,32 @@ FORMAT	: SHIFT + ALT + F		> CTRL + K, CTRL + D
 FORMAT(HTML) : F1 -> Beautify > HTML / JS / CSS
 
 EXTENSIONS(paste to TERMINAL):
-code --list-extensions | xargs -L 1 echo code --install-extensions
-code --install-extensions aaron-bond.better-comments
-code --install-extensions christian-kohler.path-intellisense
-code --install-extensions codezombiech.gitignore
-code --install-extensions CoenraadS.bracket-pair-colorizer-2
-code --install-extensions craigthomas.supersharp
-code --install-extensions doggy8088.netcore-extension-pack
-code --install-extensions doggy8088.netcore-snippets
-code --install-extensions eamodio.gitlens
-code --install-extensions formulahendry.auto-close-tag
-code --install-extensions formulahendry.auto-complete-tag
-code --install-extensions formulahendry.auto-rename-tag
-code --install-extensions formulahendry.dotnet
-code --install-extensions formulahendry.dotnet-test-explorer
-code --install-extensions HookyQR.beautify
-code --install-extensions jchannon.csharpextensions
-code --install-extensions jmrog.vscode-nuget-package-manager
-code --install-extensions k--kato.docomment
-code --install-extensions ms-vscode.csharp
-code --install-extensions pflannery.vscode-versionlens
-code --install-extensions quicktype.quicktype
-code --install-extensions schneiderpat.aspnet-helper
-code --install-extensions Shan.code-settings-sync
-code --install-extensions tintoy.msbuild-project-tools
-code --install-extensions vscode-icons-team.vscode-icons
-code --install-extensions wayou.vscode-todo-highlight
+code --list-extensions | xargs -L 1 echo code --install-extension
+code --install-extension aaron-bond.better-comments
+code --install-extension christian-kohler.path-intellisense
+code --install-extension codezombiech.gitignore
+code --install-extension CoenraadS.bracket-pair-colorizer-2
+code --install-extension craigthomas.supersharp
+code --install-extension doggy8088.netcore-extension-pack
+code --install-extension doggy8088.netcore-snippets
+code --install-extension eamodio.gitlens
+code --install-extension formulahendry.auto-close-tag
+code --install-extension formulahendry.auto-complete-tag
+code --install-extension formulahendry.auto-rename-tag
+code --install-extension formulahendry.dotnet
+code --install-extension formulahendry.dotnet-test-explorer
+code --install-extension HookyQR.beautify
+code --install-extension jchannon.csharpextensions
+code --install-extension jmrog.vscode-nuget-package-manager
+code --install-extension k--kato.docomment
+code --install-extension ms-vscode.csharp
+code --install-extension pflannery.vscode-versionlens
+code --install-extension quicktype.quicktype
+code --install-extension schneiderpat.aspnet-helper
+code --install-extension Shan.code-settings-sync
+code --install-extension tintoy.msbuild-project-tools
+code --install-extension vscode-icons-team.vscode-icons
+code --install-extension wayou.vscode-todo-highlight
 
 SETTINGS:
 {
