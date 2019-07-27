@@ -27,7 +27,6 @@ code --install-extension ms-vscode.csharp
 code --install-extension pflannery.vscode-versionlens
 code --install-extension quicktype.quicktype
 code --install-extension schneiderpat.aspnet-helper
-code --install-extension Shan.code-settings-sync
 code --install-extension tintoy.msbuild-project-tools
 code --install-extension vscode-icons-team.vscode-icons
 code --install-extension wayou.vscode-todo-highlight
