@@ -19,6 +19,8 @@ code --install-extension formulahendry.auto-complete-tag
 code --install-extension formulahendry.auto-rename-tag
 code --install-extension formulahendry.dotnet
 code --install-extension formulahendry.dotnet-test-explorer
+code --install-extension funkyremi.vscode-google-translate
+code --install-extension Gruntfuggly.todo-tree
 code --install-extension HookyQR.beautify
 code --install-extension jchannon.csharpextensions
 code --install-extension jmrog.vscode-nuget-package-manager
@@ -27,6 +29,7 @@ code --install-extension ms-vscode.csharp
 code --install-extension pflannery.vscode-versionlens
 code --install-extension quicktype.quicktype
 code --install-extension schneiderpat.aspnet-helper
+code --install-extension Shan.code-settings-sync
 code --install-extension tintoy.msbuild-project-tools
 code --install-extension vscode-icons-team.vscode-icons
 code --install-extension wayou.vscode-todo-highlight
@@ -34,8 +37,6 @@ code --install-extension wayou.vscode-todo-highlight
 SETTINGS:
 {
     "workbench.iconTheme": "vscode-icons",
-    "sync.code": "dabb36eb0b7d8001993451e44972e3f2",
-    "sync.gist": "dabb36eb0b7d8001993451e44972e3f2",
     "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
     "sync.forceUpload": false,
     "sync.forceDownload": false,
@@ -48,4 +49,5 @@ SETTINGS:
     "[csharp]": {
         "editor.defaultFormatter": "ms-vscode.csharp"
     },
+    "vsicons.dontShowNewVersionMessage": true,
 }
