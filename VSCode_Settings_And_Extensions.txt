@@ -38,10 +38,6 @@ SETTINGS:
 {
     "workbench.iconTheme": "vscode-icons",
     "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
-    "sync.forceUpload": false,
-    "sync.forceDownload": false,
-    "sync.autoUpload": true,
-    "sync.autoDownload": true,
     "search.showLineNumbers": true,
     "emmet.includeLanguages": {
         "aspnetcorerazor": "html"
