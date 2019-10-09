@@ -5,9 +5,8 @@ FORMAT	: SHIFT + ALT + F		> CTRL + K, CTRL + D
 FORMAT(HTML) : F1 -> Beautify > HTML / JS / CSS
 
 COMPLETELY UNINSTALL VS CODE EXTENSIONS:
-Turns out the extensions are stored under %USER%\.vscode\extensions. 
-Deleting that gets rid of them.
 For Windows : %USER%\\.vscode\extensions (or) %USERPROFILE%\.vscode\extensions
+For Linux/MAC: ~/.vscode/extensions
 
 EXTENSIONS(paste to TERMINAL):
 code --list-extensions | xargs -L 1 echo code --install-extension
