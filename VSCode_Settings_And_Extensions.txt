@@ -43,6 +43,7 @@ SETTINGS:
 {
     "workbench.iconTheme": "vscode-icons",
     "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "http.proxyStrictSSL": false,
     "search.showLineNumbers": true,
     "emmet.includeLanguages": {
         "aspnetcorerazor": "html"
