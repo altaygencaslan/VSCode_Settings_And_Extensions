@@ -28,8 +28,11 @@ code --install-extension Gruntfuggly.todo-tree
 code --install-extension HookyQR.beautify
 code --install-extension jchannon.csharpextensions
 code --install-extension jmrog.vscode-nuget-package-manager
+code --install-extension jorgeserrano.vscode-csharp-snippets
 code --install-extension k--kato.docomment
+code --install-extension Leopotam.csharpfixformat
 code --install-extension ms-vscode.csharp
+code --install-extension octref.vetur
 code --install-extension pflannery.vscode-versionlens
 code --install-extension pranaygp.vscode-css-peek
 code --install-extension quicktype.quicktype
