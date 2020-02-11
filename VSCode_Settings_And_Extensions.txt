@@ -9,15 +9,23 @@ For Windows : %USER%\\.vscode\extensions (or) %USERPROFILE%\.vscode\extensions
 For Linux/MAC: ~/.vscode/extensions
 
 EXTENSIONS(paste to TERMINAL):
-code --list-extensions | xargs -L 1 echo code --install-extension
+//Generate Extension List in Terminal:
+code --list-extensions | % { "code --install-extension $_" }
+
+//Install Extension List in Terminal:
 code --install-extension aaron-bond.better-comments
+code --install-extension adrianwilczynski.asp-net-core-switcher
+code --install-extension Angular.ng-template
 code --install-extension christian-kohler.path-intellisense
 code --install-extension codezombiech.gitignore
+code --install-extension CoenraadS.bracket-pair-colorizer
 code --install-extension CoenraadS.bracket-pair-colorizer-2
 code --install-extension craigthomas.supersharp
+code --install-extension dariofuzinato.vue-peek
 code --install-extension doggy8088.netcore-extension-pack
 code --install-extension doggy8088.netcore-snippets
 code --install-extension eamodio.gitlens
+code --install-extension esbenp.prettier-vscode
 code --install-extension formulahendry.auto-close-tag
 code --install-extension formulahendry.auto-complete-tag
 code --install-extension formulahendry.auto-rename-tag
@@ -26,19 +34,25 @@ code --install-extension formulahendry.dotnet-test-explorer
 code --install-extension funkyremi.vscode-google-translate
 code --install-extension Gruntfuggly.todo-tree
 code --install-extension HookyQR.beautify
+code --install-extension IBM.output-colorizer
 code --install-extension jchannon.csharpextensions
 code --install-extension jmrog.vscode-nuget-package-manager
 code --install-extension jorgeserrano.vscode-csharp-snippets
 code --install-extension k--kato.docomment
 code --install-extension Leopotam.csharpfixformat
 code --install-extension ms-vscode.csharp
+code --install-extension msjsdiag.debugger-for-chrome
 code --install-extension octref.vetur
+code --install-extension peakchen90.vue-beautify
 code --install-extension pflannery.vscode-versionlens
+code --install-extension PKief.material-icon-theme
 code --install-extension pranaygp.vscode-css-peek
 code --install-extension quicktype.quicktype
 code --install-extension ritwickdey.LiveServer
 code --install-extension schneiderpat.aspnet-helper
+code --install-extension sdras.vue-vscode-snippets
 code --install-extension tintoy.msbuild-project-tools
+code --install-extension VisualStudioExptTeam.vscodeintellicode
 code --install-extension vscode-icons-team.vscode-icons
 code --install-extension wayou.vscode-todo-highlight
 
