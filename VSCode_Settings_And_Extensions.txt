@@ -63,9 +63,11 @@ SETTINGS:
     "http.proxyStrictSSL": false,
     "search.showLineNumbers": true,
     "emmet.includeLanguages": {
+        "markdown": "html",
         "aspnetcorerazor": "html",
         "vue-html": "html"
     },
+    "emmet.triggerExpansionOnTab": true,
     "[csharp]": {
         "editor.defaultFormatter": "ms-vscode.csharp"
     },
