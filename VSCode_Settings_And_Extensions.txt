@@ -16,15 +16,19 @@ code --list-extensions | % { "code --install-extension $_" }
 code --install-extension aaron-bond.better-comments
 code --install-extension adrianwilczynski.asp-net-core-switcher
 code --install-extension Angular.ng-template
+code --install-extension anseki.vscode-color
+code --install-extension auchenberg.vscode-browser-preview
+code --install-extension christian-kohler.npm-intellisense
 code --install-extension christian-kohler.path-intellisense
 code --install-extension codezombiech.gitignore
-code --install-extension CoenraadS.bracket-pair-colorizer
 code --install-extension CoenraadS.bracket-pair-colorizer-2
 code --install-extension craigthomas.supersharp
-code --install-extension dariofuzinato.vue-peek
+code --install-extension dbaeumer.vscode-eslint
 code --install-extension doggy8088.netcore-extension-pack
 code --install-extension doggy8088.netcore-snippets
+code --install-extension dsznajder.es7-react-js-snippets
 code --install-extension eamodio.gitlens
+code --install-extension eg2.vscode-npm-script
 code --install-extension esbenp.prettier-vscode
 code --install-extension formulahendry.auto-close-tag
 code --install-extension formulahendry.auto-complete-tag
@@ -40,8 +44,9 @@ code --install-extension jmrog.vscode-nuget-package-manager
 code --install-extension jorgeserrano.vscode-csharp-snippets
 code --install-extension k--kato.docomment
 code --install-extension Leopotam.csharpfixformat
-code --install-extension ms-vscode.csharp
+code --install-extension ms-dotnettools.csharp
 code --install-extension msjsdiag.debugger-for-chrome
+code --install-extension msjsdiag.vscode-react-native
 code --install-extension octref.vetur
 code --install-extension peakchen90.vue-beautify
 code --install-extension pflannery.vscode-versionlens
@@ -52,24 +57,41 @@ code --install-extension ritwickdey.LiveServer
 code --install-extension schneiderpat.aspnet-helper
 code --install-extension sdras.vue-vscode-snippets
 code --install-extension tintoy.msbuild-project-tools
+code --install-extension Tyriar.lorem-ipsum
 code --install-extension VisualStudioExptTeam.vscodeintellicode
 code --install-extension vscode-icons-team.vscode-icons
 code --install-extension wayou.vscode-todo-highlight
 
 SETTINGS:
 {
-    "workbench.iconTheme": "vscode-icons",
-    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
-    "http.proxyStrictSSL": false,
+    "window.zoomLevel": -1,
     "search.showLineNumbers": true,
-    "emmet.includeLanguages": {
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+	},
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "[csharp]": {
+        "editor.defaultFormatter": "vscode.configuration-editing"
+    },
+    "emmet.includeLanguages": {  
         "markdown": "html",
         "aspnetcorerazor": "html",
         "vue-html": "html"
     },
     "emmet.triggerExpansionOnTab": true,
-    "[csharp]": {
-        "editor.defaultFormatter": "ms-vscode.csharp"
-    },
+    "workbench.iconTheme": "vscode-icons",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "files.autoSave": "off",
+    "todo-tree.highlights.enabled": true,
+    "liveServer.settings.donotVerifyTags": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "todo-tree.tree.showScanModeButton": false,
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
     "vsicons.dontShowNewVersionMessage": true,
 }
