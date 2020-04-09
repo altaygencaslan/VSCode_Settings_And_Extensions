@@ -1,9 +1,3 @@
-KEYBOARD SHORCUTS:
-FOLD 	: CTRL + K, CTRL + 3	> CTRL + M, CTRL + O
-UNFOLD 	: CTRL + K, CTRL + J	> CTRL + M, CTRL + P
-FORMAT	: SHIFT + ALT + F		> CTRL + K, CTRL + D
-FORMAT(HTML) : F1 -> Beautify > HTML / JS / CSS
-
 COMPLETELY UNINSTALL VS CODE EXTENSIONS:
 For Windows : %USER%\\.vscode\extensions (or) %USERPROFILE%\.vscode\extensions
 For Linux/MAC: ~/.vscode/extensions
@@ -13,19 +7,10 @@ EXTENSIONS(paste to TERMINAL):
 code --list-extensions | % { "code --install-extension $_" }
 
 //Install Extension List in Terminal:
-code --install-extension aaron-bond.better-comments
-code --install-extension adrianwilczynski.asp-net-core-switcher
-code --install-extension Angular.ng-template
-code --install-extension anseki.vscode-color
 code --install-extension auchenberg.vscode-browser-preview
+code --install-extension burkeholland.simple-react-snippets
 code --install-extension christian-kohler.npm-intellisense
-code --install-extension christian-kohler.path-intellisense
-code --install-extension codezombiech.gitignore
 code --install-extension CoenraadS.bracket-pair-colorizer-2
-code --install-extension craigthomas.supersharp
-code --install-extension dbaeumer.vscode-eslint
-code --install-extension doggy8088.netcore-extension-pack
-code --install-extension doggy8088.netcore-snippets
 code --install-extension dsznajder.es7-react-js-snippets
 code --install-extension eamodio.gitlens
 code --install-extension eg2.vscode-npm-script
@@ -33,65 +18,14 @@ code --install-extension esbenp.prettier-vscode
 code --install-extension formulahendry.auto-close-tag
 code --install-extension formulahendry.auto-complete-tag
 code --install-extension formulahendry.auto-rename-tag
-code --install-extension formulahendry.dotnet
-code --install-extension formulahendry.dotnet-test-explorer
 code --install-extension funkyremi.vscode-google-translate
-code --install-extension Gruntfuggly.todo-tree
 code --install-extension HookyQR.beautify
-code --install-extension IBM.output-colorizer
-code --install-extension jchannon.csharpextensions
-code --install-extension jmrog.vscode-nuget-package-manager
-code --install-extension jorgeserrano.vscode-csharp-snippets
-code --install-extension k--kato.docomment
-code --install-extension Leopotam.csharpfixformat
 code --install-extension ms-dotnettools.csharp
 code --install-extension msjsdiag.debugger-for-chrome
 code --install-extension msjsdiag.vscode-react-native
-code --install-extension octref.vetur
-code --install-extension peakchen90.vue-beautify
 code --install-extension pflannery.vscode-versionlens
-code --install-extension PKief.material-icon-theme
 code --install-extension pranaygp.vscode-css-peek
-code --install-extension quicktype.quicktype
 code --install-extension ritwickdey.LiveServer
-code --install-extension schneiderpat.aspnet-helper
-code --install-extension sdras.vue-vscode-snippets
-code --install-extension tintoy.msbuild-project-tools
 code --install-extension Tyriar.lorem-ipsum
 code --install-extension VisualStudioExptTeam.vscodeintellicode
 code --install-extension vscode-icons-team.vscode-icons
-code --install-extension wayou.vscode-todo-highlight
-
-SETTINGS:
-{
-    "window.zoomLevel": -1,
-    "search.showLineNumbers": true,
-    "[html]": {
-        "editor.defaultFormatter": "vscode.html-language-features"
-	},
-    "[typescript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
-    },
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
-    },
-    "[csharp]": {
-        "editor.defaultFormatter": "vscode.configuration-editing"
-    },
-    "emmet.includeLanguages": {  
-        "markdown": "html",
-        "aspnetcorerazor": "html",
-        "vue-html": "html"
-    },
-    "emmet.triggerExpansionOnTab": true,
-    "workbench.iconTheme": "vscode-icons",
-    "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "files.autoSave": "off",
-    "todo-tree.highlights.enabled": true,
-    "liveServer.settings.donotVerifyTags": true,
-    "liveServer.settings.donotShowInfoMsg": true,
-    "todo-tree.tree.showScanModeButton": false,
-    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
-    "vsicons.dontShowNewVersionMessage": true,
-}
