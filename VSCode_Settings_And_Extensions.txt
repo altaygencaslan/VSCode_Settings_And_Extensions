@@ -7,9 +7,10 @@ EXTENSIONS(paste to TERMINAL):
 code --list-extensions | % { "code --install-extension $_" }
 
 //Install Extension List in Terminal:
-code --install-extension auchenberg.vscode-browser-preview
+code --install-extension Angular.ng-template
+code --install-extension auchenberg.vscode-browser-preview 
 code --install-extension burkeholland.simple-react-snippets
-code --install-extension christian-kohler.npm-intellisense
+code --install-extension christian-kohler.npm-intellisense 
 code --install-extension CoenraadS.bracket-pair-colorizer-2
 code --install-extension dsznajder.es7-react-js-snippets
 code --install-extension eamodio.gitlens
@@ -20,6 +21,7 @@ code --install-extension formulahendry.auto-complete-tag
 code --install-extension formulahendry.auto-rename-tag
 code --install-extension funkyremi.vscode-google-translate
 code --install-extension HookyQR.beautify
+code --install-extension kisstkondoros.typelens
 code --install-extension ms-dotnettools.csharp
 code --install-extension msjsdiag.debugger-for-chrome
 code --install-extension msjsdiag.vscode-react-native
