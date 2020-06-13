@@ -6,12 +6,15 @@ EXTENSIONS(paste to TERMINAL):
 //Generate Extension List in Terminal:
 code --list-extensions | % { "code --install-extension $_" }
 
-//Install Extension List in Terminal:
+//Install Extension List in PowerShell Terminal:
+code --install-extension alexiv.vscode-angular2-files
 code --install-extension Angular.ng-template
-code --install-extension auchenberg.vscode-browser-preview 
+code --install-extension auchenberg.vscode-browser-preview
 code --install-extension burkeholland.simple-react-snippets
-code --install-extension christian-kohler.npm-intellisense 
+code --install-extension christian-kohler.npm-intellisense
 code --install-extension CoenraadS.bracket-pair-colorizer-2
+code --install-extension Dart-Code.dart-code
+code --install-extension Dart-Code.flutter
 code --install-extension dsznajder.es7-react-js-snippets
 code --install-extension eamodio.gitlens
 code --install-extension eg2.vscode-npm-script
@@ -20,14 +23,14 @@ code --install-extension formulahendry.auto-close-tag
 code --install-extension formulahendry.auto-complete-tag
 code --install-extension formulahendry.auto-rename-tag
 code --install-extension funkyremi.vscode-google-translate
-code --install-extension HookyQR.beautify
+code --install-extension johnpapa.Angular2
 code --install-extension kisstkondoros.typelens
 code --install-extension ms-dotnettools.csharp
 code --install-extension msjsdiag.debugger-for-chrome
 code --install-extension msjsdiag.vscode-react-native
+code --install-extension Nash.awesome-flutter-snippets
 code --install-extension pflannery.vscode-versionlens
 code --install-extension pranaygp.vscode-css-peek
 code --install-extension ritwickdey.LiveServer
 code --install-extension Tyriar.lorem-ipsum
 code --install-extension VisualStudioExptTeam.vscodeintellicode
-code --install-extension vscode-icons-team.vscode-icons
