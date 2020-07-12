@@ -9,6 +9,7 @@ code --list-extensions | % { "code --install-extension $_" }
 //Install Extension List in PowerShell Terminal:
 code --install-extension alexiv.vscode-angular2-files
 code --install-extension Angular.ng-template
+code --install-extension atlassian.atlascode
 code --install-extension auchenberg.vscode-browser-preview
 code --install-extension burkeholland.simple-react-snippets
 code --install-extension christian-kohler.npm-intellisense
@@ -28,9 +29,11 @@ code --install-extension kisstkondoros.typelens
 code --install-extension ms-dotnettools.csharp
 code --install-extension msjsdiag.debugger-for-chrome
 code --install-extension msjsdiag.vscode-react-native
+code --install-extension mutantdino.resourcemonitor
 code --install-extension Nash.awesome-flutter-snippets
 code --install-extension pflannery.vscode-versionlens
 code --install-extension pranaygp.vscode-css-peek
+code --install-extension redhat.vscode-yaml
 code --install-extension ritwickdey.LiveServer
 code --install-extension Tyriar.lorem-ipsum
 code --install-extension VisualStudioExptTeam.vscodeintellicode
