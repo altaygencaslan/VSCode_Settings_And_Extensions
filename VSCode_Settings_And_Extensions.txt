@@ -16,8 +16,8 @@ code --install-extension Dart-Code.flutter
 code --install-extension eamodio.gitlens
 code --install-extension eg2.vscode-npm-script
 code --install-extension esbenp.prettier-vscode
-code --install-extension formulahendry.auto-close-tag
-code --install-extension formulahendry.auto-complete-tag
+code --install-extension formulahendry.auto-close-tag      
+code --install-extension formulahendry.auto-complete-tag   
 code --install-extension formulahendry.auto-rename-tag
 code --install-extension funkyremi.vscode-google-translate
 code --install-extension ms-dotnettools.csharp
